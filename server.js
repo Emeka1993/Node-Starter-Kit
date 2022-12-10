@@ -10,3 +10,11 @@ console.log("Server is listenting on port 3001. ready to accept request!");
 app.get("/", function (req, res) {
     res.send("Hello World!");
   });
+
+  app.get("/node", function (req, res) {
+    res.send("Emeka");
+  });
+
+  app.get("/coding", function (req, res) {
+    res.send("coding");
+  });
